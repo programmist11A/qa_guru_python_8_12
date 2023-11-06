@@ -1,5 +1,5 @@
-from home_8_10 import RegistrationPage
-from home_8_10 import User
+from home_8_10.page.registration_page import RegistrationPage
+from home_8_10.data.users import User
 import allure
 
 registration_page = RegistrationPage()
