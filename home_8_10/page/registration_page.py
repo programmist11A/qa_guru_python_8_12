@@ -4,6 +4,8 @@ from home_8_10.picture.resource import path
 class RegistrationPage:
     def open(self):
         browser.open('/automation-practice-form')
+        browser.execute_script('document.querySelector("#fixedban").remove()')
+        browser.element('footer').execute_script('element.remove()')
 
     def register(self, user):
         browser.element('#firstName').should(be.visible).type(user.first_name)
