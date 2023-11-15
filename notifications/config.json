@@ -1,0 +1,17 @@
+{
+  "base": {
+    "logo": "",
+    "project": "my project",
+    "environment": "TEST",
+    "comment": "comment @Anton_Fomin_QA",
+    "reportLink": "https://jenkins.autotests.cloud/job/qa_guru_python_8_12_j_/3/allure/",
+    "language": "en",
+    "allureFolder": "allure-report",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "6795046338:AAETkRvgKIADApMv7S9khTLW4TBKSn9AWw8",
+    "chat": "-1001492064906",
+    "replyTo": ""
+  }
+}
